@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background65.png);
+    background-repeat:repeat;
+    background-attachment: scroll;
+font-family: 'El Messiri', sans-serif;
+
+}
+
+
+/*
+.container {
+
+      box-sizing: border-box; 
+    position: static;
+    margin-left: 250px;   
+    margin-top:200px;
+    margin-bottom: 60px;
+    background-color:grey;
+    width:200px;
+    height: 4000px;
+
+}
+*/
+
+
+.logo {
+        height:90px;
+    position:sticky;
+    top:0;
+    background-color:white;
+    margin: auto;
+    padding: auto;
+        z-index:2;
+
+}
+
+.nav {
+    margin-left: 150px;
+    margin-top:-70px;
+    font-size: 25px;
+    display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+
+}
+
+.logo_pict {
+    width:70px;
+    height:70px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+      display:inline-block;
+
+
+
+}
+
+a:hover {
+    color:lightgray;
+}
+
+a:visited {
+    color: #808080;
+}
+
+.road {
+    position:static;
+	height: 700px;
+    width:1280px;
+}
+
+.quote {
+    position:absolute;
+    top:350px;
+    margin-left:350px;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+    text-align:center;
+    color:#DEB887;
+    z-index:1;
+}
+
+h1 {
+    margin-top:10px;
+    margin-bottom:5px;
+    text-align: center;
+    
+}
+
+hr {
+    margin-bottom:5px;
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+p {
+    text-align:left;
+    margin-top:15px;
+    display: block;
+}
+
+.myphoto {
+    width:250px;
+    height:250px;
+    margin-left:900px;
+    margin-top:-250px;
+    position:absolute;
+}
+
+.first{
+    width:1280px;
+    height:853px;
+    margin-left:00px;
+}
+
+.details {
+    text-align: center;
+    font-size:30px;
+}
